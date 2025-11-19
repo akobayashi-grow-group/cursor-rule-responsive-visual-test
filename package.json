@@ -1,0 +1,30 @@
+{
+  "name": "responsive-layout-checker",
+  "version": "1.0.0",
+  "description": "Automated responsive layout checker using Playwright and Cursor AI Agent",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js capture",
+    "report": "node dist/main.js report",
+    "dev": "tsc && node dist/main.js capture"
+  },
+  "keywords": [
+    "responsive",
+    "layout",
+    "testing",
+    "playwright",
+    "cursor"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}
+

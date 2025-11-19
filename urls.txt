@@ -1,0 +1,8 @@
+# レスポンシブレイアウトチェック対象URLリスト
+# 1行に1つのURLを記載してください
+# 「#」で始まる行はコメントとして無視されます
+
+# 例:
+# https://example.com
+# https://example.com/about
+# https://example.com/contact
